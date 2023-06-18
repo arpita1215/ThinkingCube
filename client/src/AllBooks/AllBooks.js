@@ -18,11 +18,11 @@ const AllBooks = () => {
   const navigate = useNavigate();
 
   const addReview = (id) => {
-    navigate(`/api/addreview/${id}`)
+    navigate(`/addreview/${id}`)
   }
 
   const viewReview = (id) => {
-    navigate(`/api/book/${id}`)
+    navigate(`/book/${id}`)
   }
 
 const allBooks = async () => {

@@ -102,7 +102,7 @@ const Reviews = () => {
           </Card>
           ))}
           <div className='bigButton'>
-          <NavLink className="button" to="/addBook">Add Books</NavLink>
+          <NavLink className="button" to="/addbook">Add Books</NavLink>
           </div>
           
           </div>

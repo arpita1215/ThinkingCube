@@ -14,10 +14,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
-        <Route path="/api/allBooks" element={<AllBooks/>}/>
-        <Route path="/api/book/:id" element={<Reviews />} />
-        <Route path="/api/addreview/:id" element={<AddReview />} />
-        <Route path="/api/addbook" element={<AddBook />} />
+        <Route path="/allBooks" element={<AllBooks/>}/>
+        <Route path="/book/:id" element={<Reviews />} />
+        <Route path="/addreview/:id" element={<AddReview />} />
+        <Route path="/addbook" element={<AddBook />} />
         <Route path='*' element={<About />} />
       </Routes>
       {/* <AllBooks /> */}
