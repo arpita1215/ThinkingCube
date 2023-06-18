@@ -84,7 +84,7 @@ const allBooks = async () => {
           )
       )}
       <div className="bigButton">
-      <NavLink className="button1" to="/addbook">Add Books</NavLink>
+      <NavLink className="button14" style={{padding:"1rem"}} to="/addbook">Add Books</NavLink>
       </div>
       
       </div>
