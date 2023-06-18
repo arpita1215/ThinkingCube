@@ -17,7 +17,8 @@ function App() {
         <Route path="/allBook" element={<AllBooks/>}/>
         <Route path="/review/:id" element={<Reviews />} />
         <Route path="/addReview/:id" element={<AddReview />} />
-        <Route path="/addBook" element={<AddBook />}/>
+        <Route path="/addBook" element={<AddBook />} />
+        <Route path='*' element={<About />} />
       </Routes>
       {/* <AllBooks /> */}
       {/* <AddReview /> */}
