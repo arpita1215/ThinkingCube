@@ -10,15 +10,18 @@
 }
 .cardBox{
     padding-top: 1rem;
-    margin: 1rem 0 2rem 5rem;
+    margin: 1rem 5rem 2rem 5rem;
     /* border-style: double; */
-    width: 15%;
+    /* width: 15%; */
     /* background-color: rgb(177, 133, 133); */
+}
+.reviewCard{
+    margin-top: 1rem;
 }
 .bigButton{
     padding-top: 2rem;
 }
-.button{
+.buttonr{
     text-decoration: none;
     border: 2px solid rgb(98, 47, 47);
     padding: 1rem;

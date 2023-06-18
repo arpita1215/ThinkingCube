@@ -4,7 +4,7 @@ import "../Footer/Footer.css"
 export class Footer extends Component {
   render() {
     return (
-        <div>
+        <div className='bigFooter'>
             <div className='footer'>
                 <p>Cubicle by Arpita</p>
             </div>

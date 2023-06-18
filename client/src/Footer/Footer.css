@@ -1,14 +1,21 @@
+.bigFooter{
+    padding-top: 4rem;
+}
+
+
+
 .footer{
     background:  rgb(98, 47, 47);
     color:  rgb(255, 255, 255);
     align-items: center;
     align-content: center;
     text-align: center;
-    margin: 1rem;
+    /* margin: 1rem; */
     padding: 0.1px;
     font-style:italic;
-    /* position: fixed; */
-    /* bottom: 0; */
-    width: 98%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     /* width: 200vh; */
+    
 }

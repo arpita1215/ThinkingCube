@@ -49,8 +49,8 @@ const allBooks = async () => {
       
       {books.map((book,index) => 
         (
-          <div className="cards" >
-          <div className="cardBox" key={index}>
+          <div className="cardss" >
+          <div className="cardBoxs" key={index}>
             <Card sx={{ minWidth: 275 }} >
               <CardContent >
                 <Typography

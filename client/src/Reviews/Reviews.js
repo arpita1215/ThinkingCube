@@ -88,7 +88,7 @@ const Reviews = () => {
             </CardActions>
           </Card>
           {books.reviews.map((review, index) => (
-            <Card sx={{ minWidth: 275 }} >
+            <Card sx={{ minWidth: 275 }} className='reviewCard' >
             <CardContent>
               <Typography variant="h5" component="div">
                 {review.username}
@@ -102,7 +102,7 @@ const Reviews = () => {
           </Card>
           ))}
           <div className='bigButton'>
-          <NavLink className="button" to="/addbook">Add Books</NavLink>
+          <NavLink className="buttonr" to="/addbook">Add Books</NavLink>
           </div>
           
           </div>

@@ -5,16 +5,16 @@
     color: rgb(177, 133, 133);
     
 }
-.cards{
+.cardss{
     box-sizing: content-box;
     
     /* padding-bottom: 2rem; */
 }
-.cardBox{
+.cardBoxs{
     padding-top: 1rem;
-    margin: 1rem 0 2rem 5rem;
+    margin: 1rem 5rem 2rem 5rem;
     /* border-style: double; */
-    width: 15%;
+    /* width: 15%; */
     /* background-color: rgb(177, 133, 133); */
 }
 .bigButton{
@@ -24,7 +24,8 @@
 .button{
     text-decoration: none;
     border: 2px solid rgb(98, 47, 47);
-    padding: 1rem;
+    /* padding: 1rem; */
+    margin: 1rem 5rem 2rem 4rem;
     color: white;
     background-color: rgb(98, 47, 47);
     border-radius: 5px;

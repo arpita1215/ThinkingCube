@@ -66,5 +66,15 @@ router.get("/book/:id", async (req, res) => {
 });
 
 
+router.delete("/deletebook/:id", async (req, res) => {
+  try {
+    const deleteBook = await Book.findOneAndDelete({ _id: req.params.id });
+    res.json({success:true, data: "deleted successfully"});
+  } catch (error) {
+    res.json({success:false, error:error.message}); 
+  }
+})
+
+
 
 module.exports = router;
