@@ -84,7 +84,7 @@ const allBooks = async () => {
           )
       )}
       <div className="bigButton">
-      <NavLink className="button" to="/api/addbook">Add Books</NavLink>
+      <NavLink className="button" to="/addbook">Add Books</NavLink>
       </div>
       
       </div>
