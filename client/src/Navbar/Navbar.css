@@ -1,0 +1,17 @@
+.navbar{
+ /* padding: 1rem; */
+    display: flex;
+
+}
+.logo{
+    width: 2rem;
+    height: 2rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 0.8rem;
+}
+.title{
+    font-family: 'Comforter', cursive;
+    color: rgb(177, 133, 133);
+    font-size: 1.8rem;
+}

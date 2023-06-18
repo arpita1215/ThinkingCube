@@ -1,0 +1,31 @@
+.headingA{
+    margin: 1rem 0 2rem 5rem;
+    line-height: 10%;
+    font-size: 2rem;
+    color: rgb(177, 133, 133);
+    
+}
+.cards{
+    box-sizing: content-box;
+    
+    /* padding-bottom: 2rem; */
+}
+.cardBox{
+    padding-top: 1rem;
+    margin: 1rem 0 2rem 5rem;
+    /* border-style: double; */
+    width: 15%;
+    /* background-color: rgb(177, 133, 133); */
+}
+.bigButton{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.button{
+    text-decoration: none;
+    border: 2px solid rgb(98, 47, 47);
+    padding: 1rem;
+    color: white;
+    background-color: rgb(98, 47, 47);
+    border-radius: 5px;
+}

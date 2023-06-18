@@ -1,0 +1,33 @@
+.maindiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgdiv{
+    flex: 0.5;
+}
+.imgBooks{
+    width: 32rem;
+}
+
+.textdiv{
+    flex: 0.5;
+    color: rgb(177, 133, 133);
+    align-items: center;
+    align-content: center;
+    /* text-align: center; */
+    letter-spacing: 0.01em;
+    line-height: 20%;
+    padding: 8rem 0;
+}
+.heading{
+    font-size: 3rem;
+}
+.button{
+    text-decoration: none;
+    border: 2px solid rgb(98, 47, 47);
+    padding: 1rem;
+    color: white;
+    background-color: rgb(98, 47, 47);
+    border-radius: 5px;
+}
