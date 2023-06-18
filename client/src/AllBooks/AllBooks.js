@@ -42,7 +42,7 @@ const allBooks = async () => {
     <div>
         <div className="heading">
           <h2 className="headingA">
-          Expose you <span style={{ color: "rgb(98, 47, 47)" }}>Shelf</span>{" "}
+          Expose your <span style={{ color: "rgb(98, 47, 47)" }}>Shelf</span>{" "}
             to something new 
         </h2>
       </div>
