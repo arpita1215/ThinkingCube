@@ -1,0 +1,13 @@
+.errorImg{
+    /* width: 1rem; */
+    background-color: rgb(242, 242, 242);
+}
+.errorImage{
+    padding: 2rem 30rem 1rem 30rem;
+    width: 80vh;
+    height: 70vh;
+    align-items: center;
+    align-self:center;
+    align-content: center;
+    
+}

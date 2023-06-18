@@ -7,6 +7,7 @@ import AddBook from "./AddBook/AddBook";
 import AddReview from "./AddReview/AddReview";
 import Reviews from "./Reviews/Reviews";
 import About from "./About/About"
+import Error from "./Error/Error";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route path="/book/:id" element={<Reviews />} />
         <Route path="/addreview/:id" element={<AddReview />} />
         <Route path="/addbook" element={<AddBook />} />
-        <Route path='*' element={<About />} />
+        <Route path='*' element={<Error />} />
       </Routes>
       {/* <AllBooks /> */}
       {/* <AddReview /> */}
