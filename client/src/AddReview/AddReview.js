@@ -26,7 +26,7 @@ const Login = () => {
     try {
       await axios.post(`/api/addreview/${id}`, { ...user });
       alert("review added successfully");
-      navigate(`/review/${id}`);
+      navigate(`/api/book/${id}`);
     } catch (err) {
       alert(err);
     }

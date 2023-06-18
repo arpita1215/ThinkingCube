@@ -21,7 +21,7 @@ const Login = () => {
     try {
       await axios.post(`/api/addbook`, { ...user })
       alert("book added successfully");
-      navigate(`/allBook`);
+      navigate(`/api/allBooks`);
     } catch (err) {
       alert(err);
     }

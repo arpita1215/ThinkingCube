@@ -18,11 +18,11 @@ const AllBooks = () => {
   const navigate = useNavigate();
 
   const addReview = (id) => {
-    navigate(`/addReview/${id}`)
+    navigate(`/api/addreview/${id}`)
   }
 
   const viewReview = (id) => {
-    navigate(`/review/${id}`)
+    navigate(`/api/book/${id}`)
   }
 
 const allBooks = async () => {
@@ -84,7 +84,7 @@ const allBooks = async () => {
           )
       )}
       <div className="bigButton">
-      <NavLink className="button" to="/addBook">Add Books</NavLink>
+      <NavLink className="button" to="/api/addbook">Add Books</NavLink>
       </div>
       
       </div>
