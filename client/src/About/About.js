@@ -25,8 +25,8 @@ export class About extends Component {
           </h3>
           <Stack spacing={2} direction="row">
             {/* <Button variant="contained" >Books Here</Button> */}
-            <NavLink className="button1" to="/allBooks">Books Here</NavLink>
-            <NavLink className="button1" to="/addbook">Add Books</NavLink>
+            <NavLink className="button12" to="/allBooks">Books Here</NavLink>
+            <NavLink className="button12" to="/addbook">Add Books</NavLink>
           </Stack>
 
           {/* <h4>Expose you <span style={{ color: "rgb(98, 47, 47)" }} >Shelf</span> to something new</h4>
