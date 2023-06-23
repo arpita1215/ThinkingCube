@@ -10,6 +10,7 @@ import axios from "axios";
 import { useParams } from "react-router";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+// import Background from "../Images/background.png"
 
 const Reviews = () => {
 
@@ -53,7 +54,7 @@ const Reviews = () => {
     },[])
 
   return (
-    <div>
+    <div >
         <div className="heading">
         <h2 className="headingA">
           Read all the <span style={{ color: "rgb(98, 47, 47)" }}>Thoughts</span>{" "}

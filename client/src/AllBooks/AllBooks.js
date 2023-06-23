@@ -25,6 +25,19 @@ const AllBooks = () => {
     navigate(`/book/${id}`)
   }
 
+
+  const deleteBook = async (id) => {
+    try {
+      await axios.delete(`/api/deletebook/${id}`)
+      alert("book deleted successfully");
+      navigate('/AllBooks')
+      window.location.reload(false);
+    } catch (error) {
+      alert(error);
+    }
+  }
+
+
 const allBooks = async () => {
   try {
     const response = await axios.get('/api/allBooks')
@@ -77,6 +90,9 @@ const allBooks = async () => {
                 <Button size="small" onClick={() => {
                   viewReview(book._id)
                 }}>View Review</Button>
+                <Button size="small"  onClick={() => {
+                  deleteBook(book._id)
+                }}>Delete Book</Button>
               </CardActions>
             </Card>
           </div>
